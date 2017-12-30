@@ -1,7 +1,7 @@
 *{
   font-family: arial, sans-serif;
   margin: 0;
-  padding: 0:
+  padding: 0;
 }
 
 
@@ -28,7 +28,6 @@ input:focus {
 }
 
 body{
-  font-size: 14px;
   color: #333;
 }
 
@@ -62,19 +61,75 @@ li {
   float: right;
 }
 
+.botnav{
+  background-color: #f2f2f2;
+  font-size: 12px;
+  border-top: 1px solid #e4e4e4;
+  position: absolute;
+  bottom: 0;
+  overflow: hidden;
+  bottom: 0;
+  width: 100%;
+  padding: 6px 14px 14px 12px;
+  display: line-block;
+}
+
+.botnav a{
+  padding-right: 6px;
+  margin-right: 10px;
+  color: black;
+  position: relative;
+  top: 18px;
+}
+
 .navbotleft {
-  font-size: 14px;
+  font-size: 12px;
   color: #333;
+  list-style: none;
+  margin: 4px;
+  text-align: left;
+  float:left;
 }
 
 .navbotright{
-  font-size: 14px;
+  font-size: 12px;
   color: #333;
+  list-style: none;
+  margin: 4px;
+  position: relative;
+  right: 50px;
+  text-align: right;
+  float: right;
 }
 .center{
   margin:auto;
   width: 550px;
   padding-top: 170px;
+}
+
+.buttons{
+  display:inline;
+  position: relative;
+  left: 140px;
+  margin: 15px 3px;
+  height: 40px;
+  border: 1px solid #f2f2f2;
+  border-radius: 2px;
+  background-color: #f2f2f2;
+  font-size: small;
+  font-weight: bold;
+  color: #757575;
+  line-height: 0;
+  padding: 14px;
+}
+
+.buttons:hover {
+  border: 1px solid #b4b6ba;
+  color: black;
+}
+
+.buttons:focus{
+  outline: none;
 }
 
 #searchbar {
@@ -124,7 +179,6 @@ li {
   bottom: 6px;
   border-radius: 2px;
 }
-
 .navright:hover {
   text-decoration: underline;
 }
@@ -133,6 +187,15 @@ li {
   text-decoration: underline;
 }
 
+.navbotleft:hover {
+  text-decoration: underline;
+}
+
+.navbotright:hover {
+  text-decoration: underline;
+}
+
 a:link{
   text-decoration: none;
+  color: rgba(0, 0, 0, 0.67);
 }
